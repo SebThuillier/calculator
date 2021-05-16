@@ -3,18 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>calculatrice</title>
-    <base href="/">
+    <title>calculator</title>
+
 
     <link type="text/css" rel="stylesheet" href="main.css" />
 </head>
 <body>
-    <img src="logo.png" alt="DFINITY logo" />
-    <section>
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button id="clickMeBtn">Click Me!</button>
-    </section>
-    <section id="greeting"></section>
+    <h1> Calculator </h1>
+    <div class="container_global">
+        <div class="calculator" data-value="1">1</div>
+        <div class="calculator" data-value="2">2</div>
+        <div class="calculator" data-value="3">3</div>
+        <div class="calculator" data-value="4">4</div>
+        <div class="calculator" data-value="5">5</div>
+        <div class="calculator" data-value="6">6</div>
+        <div class="calculator" data-value="7">7</div>
+        <div class="calculator" data-value="8">8</div>
+        <div class="calculator" data-value="9">9</div>
+        <div class="calculator" data-value="10">0</div>
+        <div class="calculator" data-value="11">+</div>
+        <div class="calculator" data-value="14">-</div>
+        <div class="calculator" data-value="15">x</div>
+        <div class="calculator" data-value="16">/</div>
+        <div class="calculator" data-value="17"> = </div>
+        <div class="calculator" data-value="18">Clear</div>
+    </div>
+    <div class="container-result">
+        <p class="help"> Click on your first number  </p>
+        <p class="result"></p>
+    </div>
+
 </body>
 </html>
